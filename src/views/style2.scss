@@ -1,0 +1,207 @@
+.banner{
+    min-height: 100vh;
+    background: url('../assets/img/main-banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+
+  .escurecer{
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to top,rgba(0,0,0,.9) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.9) 100%);
+            position: absolute;
+            z-index: 1;    
+            border-bottom: .4rem solid #222 !important;
+            
+        }
+    .main-card{
+        max-width: 650px !important;
+        z-index: 9999;
+        margin-top: 4rem;
+       
+
+      
+        .content{
+            h1{
+                font-size: var(--font-size-1);
+                font-weight: bold;
+                line-height: 1.2;
+                
+            }
+            h2{
+                font-size: var(--font-size-2);
+                margin: 1rem 0;
+            }
+        }
+        form{
+           
+            h3{
+                font-size: var(--font-size-3);
+                margin:2rem 0 1.5rem 0;
+            }
+            .input-group{
+                height: 3.5rem;
+                
+
+                input{
+                    height: 100%;
+                    font-size: var(--font-size);
+                    color: var(--ligt-text);
+                    font-weight: 500;
+                    border-radius: .1rem 0 0 .1rem !important;
+                }
+                 button{
+                    height: 100%;
+                    font-size: var(--font-size-3);
+                    border-radius: 0 .2rem .2rem 0 !important;
+                 }
+ 
+            }
+        }
+    }
+}
+
+.Onde-assistir{
+   
+
+    .content{
+
+        h1{
+            font-size: var(--font-size-1);
+            line-height: 2;
+        }
+        h2{
+            font-size: var(--font-size-2);
+            line-height: 1.5;
+        }
+    }
+    .video-content{
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    video{
+      
+      position: absolute;
+      width: 32.1rem;
+      left: 13.5%;top: 20%;
+      z-index: -1;
+
+        
+    }
+}
+}
+.download{
+  
+  
+
+    .content{
+      
+        h1{
+            font-size: var(--font-size-1);
+            line-height: 1.2;
+        }
+        h2{
+            font-size: var(--font-size-2);
+            margin-top: 3%;
+        }
+    }
+   .image{
+       position: relative;
+       background: red;
+       
+        img{
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+        }
+    .second-image{
+        position: absolute;
+        width: 25rem;
+        top: 72%;right: 18%;
+        background: #000;
+        border: .30rem solid #222 !important;
+        border-radius: .5rem;
+        padding: .6rem 1rem;
+        display: flex;
+        align-items: center;
+       
+   
+        gap:.1rem;
+
+        .image,.gif{
+           max-width:3.5rem ;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .texto{
+            margin-left: 1rem;
+            h4{
+                font-size: var(--font-size-3);
+            }
+            h4:last-child{
+                color: #0071eb;
+            }
+        }
+        .gif{
+            margin-left: auto;
+        }
+        
+    }
+   }
+}
+.todo-lugar{
+  
+  
+
+    .content{
+      
+        h1{
+            font-size: var(--font-size-1);
+            line-height: 1.2;
+        }
+        h2{
+            font-size: var(--font-size-2);
+            margin-top: 3%;
+        }
+    }
+   
+}
+.kids{
+  
+  
+
+    .content{
+      
+        h1{
+            font-size: var(--font-size-1);
+            line-height: 1.2;
+        }
+        h2{
+            font-size: var(--font-size-2);
+            margin-top: 3%;
+        }
+    }
+   .image{
+       position: relative;
+       background: red;
+       
+        img{
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+        }
+   
+   }
+}
