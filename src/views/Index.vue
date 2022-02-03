@@ -23,9 +23,9 @@
             </div>
             <div class="col-md-6 d-flex justify-content-center align-items-center">
                 <div class="video-content">
-                    <img src="../assets/img/tv.png" alt="" srcset="">
-                    <video  loop autoplay>
-                      <source src="../assets/img/video-netflix.mp4" type="video/mp4">
+                   
+                    <video  loop autoplay @contextmenu.prevent>
+                      <source src="../assets/img/netflix.mp4" type="video/mp4">
                   </video>
               </div>
              </div>
@@ -34,7 +34,7 @@
       <section class="download d-flex justify-content-center align-items-center">
           <div class="row mb-4">
             <div class=" col-md-6 mb-3 d-flex justify-content-center align-items-center">
-              <div class="image position-relative">
+              <div class="image position-relative bg-danger">
                 <img src="../assets/img/mobile.jpg" alt="Baixar series e filmes netflix" srcset="">
                 <div class="second-image ">
                   <div class="image">
@@ -98,13 +98,14 @@
           </div>   
       </section>
      
-     <footer class="container d-flex justify-content-center" >
-       <div class="container">
-          <div class="row py-4">
+
+     <footer class="pt-5" >
+       <div class="container text-sm-center">
+          <div class="row  py-4 ml-3  text-md-left">
             <div class="col-md-12 my-2">
               <h5>Questions? Contact us.</h5>
             </div>
-            <div class="col-lg-3 col-sm-6 justify-content-center mb-2">
+            <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3 ">
               <ul class="list-unstyled  ">
                   <li><a href="#">FAQ</a></li>
                   <li><a href="#">Investor Relations</a></li>
@@ -112,15 +113,15 @@
                   <li><a href="#">Speed Test</a></li>
               </ul>
             </div>
-            <div class="col-lg-3 col-sm-6 mx-auto mb-2 ">
-                <ul class="list-unstyled  ">
+            <div class="col-md-6 col-lg-3 col-xl-3  mt-3  ">
+                <ul class="list-unstyled ">
                   <li><a href="#">Help Center</a></li>
                   <li><a href="#">Jobs</a></li>
                   <li><a href="#">Cookie Preferences</a></li>
                   <li><a href="#">Legal Notices</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-6 mb-2">
+            <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3 ">
                 <ul class="list-unstyled ">
                   <li><a href="#">Account</a></li>
                   <li><a href="#">Ways to Watch</a></li>
@@ -128,7 +129,7 @@
                   <li><a href="#">Only on Netflix</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-6 mb-2 ">
+            <div class="col-md-6 col-lg-3 col-xl-3 mx-auto mt-3 ">
                 <ul class="list-unstyled ">
                   <li><a href="#">Media Center</a></li>
                   <li><a href="#">Terms of Use</a></li>

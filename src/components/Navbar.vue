@@ -18,4 +18,16 @@ export default {
 }
 </script>
 
-<style src="./style.scss" lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+    header{
+      position: absolute;
+      top: 0;right: 0;left: 0;
+      z-index: 999;
+      padding: 0.5rem 3rem;
+    }
+    .logo{
+      width: 8rem ;
+    
+    }
+</style>

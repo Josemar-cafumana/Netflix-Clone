@@ -30,9 +30,9 @@
     gap:2rem;
 }
 .btn-danger{
-    padding: 0.30rem .90rem !important;
+    padding: 0.30rem 1.3rem !important;
     background-color:var(--primary) !important;
-    font-size:var(--font-size);
+    font-size:1.2rem;
     font-weight: 500;
   
  
@@ -86,9 +86,22 @@ html{
     }
 }
 
-
 @media (max-width:450px){
     html{
         font-size: 57%;
     }
+    
+}
+@media (max-width:680px){
+    html{
+        font-size: 57%;
+    }
+    footer{
+        padding: 2rem 1rem !important;
+     a {
+        font-size:1.4rem !important;
+    }
+
+}
+    
 }
