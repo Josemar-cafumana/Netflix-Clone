@@ -78,16 +78,17 @@ html{
         font-size: 65%;
     }
     header{
-        padding: 0.5rem 1.5rem;
+        padding: 0.5rem 1rem !important;
     }
     section{
         text-align: center;
+        padding: 3rem 1rem ;
     }
 }
 
 
 @media (max-width:450px){
     html{
-        font-size: 56%;
+        font-size: 57%;
     }
 }

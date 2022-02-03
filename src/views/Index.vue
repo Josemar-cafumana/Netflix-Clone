@@ -3,19 +3,13 @@
       <Navbar />
       <div class="banner" >
      <div class="escurecer"></div>
-      <div class="main-card pt-5">
+      <div class="main-card pt-5 px-4">
       
           <div class="content">
             <h1>Unlimited movies, TV <br>shows, and more.</h1>
             <h2>Watch anywhere. Cancel anytime.</h2>
           </div>
-          <form action="" method="get">
-            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
-              <div class="input-group">
-                <input type="text" class="form-control rounded-0" placeholder="Email Adress">
-                <button class="btn  rounded-0 btn-danger" type="submit">Get started</button>
-              </div>
-          </form>   
+           <form-cad class="text-center mt-2"></form-cad>
         </div>
       </div>
     
@@ -39,7 +33,7 @@
       </section>
       <section class="download d-flex justify-content-center align-items-center">
           <div class="row mb-4">
-            <div class=" col-md-6 d-flex justify-content-center align-items-center">
+            <div class=" col-md-6 mb-3 d-flex justify-content-center align-items-center">
               <div class="image position-relative">
                 <img src="../assets/img/mobile.jpg" alt="Baixar series e filmes netflix" srcset="">
                 <div class="second-image ">
@@ -69,7 +63,7 @@
           <div class="row">
             
             <div class="col-md-8 d-flex justify-content-end align-items-center">
-                <div class="content">
+                <div class="content my-4">
                   <h1>Watch everywhere.</h1>
                   <h2>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h2>
               </div>
@@ -92,61 +86,89 @@
              </div>
           </div>
       </section>
-      <section class="questions">
- 
-            <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
+      <section class="questions d-flex justify-content-center align-items-center flex-column w-100 ">
+        <h1>Frequently Asked Questions</h1>
+          <div class="row w-100  d-flex justify-content-center">
+            <div class="col-md-10">
+              <Cardfaq :cards="cards" />
             </div>
-          
+            <div class="col-md-7 my-4 mb-5">
+              <form-cad class="text-center"></form-cad>
+            </div>
+          </div>   
       </section>
      
+     <footer class="container d-flex justify-content-center" >
+       <div class="container">
+          <div class="row py-4">
+            <div class="col-md-12 my-2">
+              <h5>Questions? Contact us.</h5>
+            </div>
+            <div class="col-lg-3 col-sm-6 justify-content-center mb-2">
+              <ul class="list-unstyled  ">
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Investor Relations</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Speed Test</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mx-auto mb-2 ">
+                <ul class="list-unstyled  ">
+                  <li><a href="#">Help Center</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Cookie Preferences</a></li>
+                  <li><a href="#">Legal Notices</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2">
+                <ul class="list-unstyled ">
+                  <li><a href="#">Account</a></li>
+                  <li><a href="#">Ways to Watch</a></li>
+                  <li><a href="#">Corporate Information</a></li>
+                  <li><a href="#">Only on Netflix</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-2 ">
+                <ul class="list-unstyled ">
+                  <li><a href="#">Media Center</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                
+                </ul>
+            </div>
+              <div class="col-md-12 my-2">
+              <h6 >Netflix Angola</h6>
+            </div>
+          </div>
+       </div>
+     </footer>
      
-  </div>
+      </div>
 </template>
 
 <script>
 import Navbar from '@/components/Navbar.vue'
+import Cardfaq from '@/components/Card-faq.vue'
+import FormCad from '@/components/Form-cad.vue'
+
 
 
 
 export default {
   name: 'Home',
-  components: {Navbar},
+  components: {Navbar,Cardfaq,FormCad},
+  data(){
+    return{
+      cards: [
+        {id:1 , titulo: 'What is Netflix?',descricao:"Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices. You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!" },
+        {id:2 , titulo:"How much does Netflix cost?" , descricao: "Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD3.99 to USD11.99 a month. No extra costs, no contracts."},
+        {id:3 , titulo:"Where can I watch?" , descricao: "Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere."},
+        {id:4 , titulo:"How do I cancel?" , descricao: "Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime."},
+        {id:5 , titulo:"What can I watch on netflix?" , descricao: "Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want."},
+        {id:6 , titulo:"Is netflix good for kids?" , descricao: "The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see."},
+      ]
+    }
+  }
 }
 </script>
 <style src="@/views/style2.scss" lang="scss" scoped></style>
