@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-      <Navbar />
+      <Navbar :home="false" />
       <div class="banner" >
      <div class="escurecer"></div>
       <div class="main-card pt-5 px-4">
